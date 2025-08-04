@@ -4,7 +4,6 @@ import AnimatedBtn from './AnimatedBtn';
 import { ArrowRight } from "lucide-react";
 import aiNotes from "../assets/ainotes.jpg"
 import aiDraft from "../assets/aiDraft.jpg"
-import aiEmail from '../assets/aiEmail.jpg'
 import aiNotion from '../assets/aiNotion.jpg'
 
 const WhyChooseSection = () => {
@@ -57,7 +56,7 @@ const WhyChooseSection = () => {
             title: "Smarter Inbox, Sorted Automatically",
             description: "WispAI organizes your emails into intelligent categories, helping you focus on what matters without the clutter or chaos.",
             badge: "AI Sorting",
-            image: "https://cdn.dribbble.com/userupload/23081768/file/original-0ac053f999baefc0f28d5ce41e91bfcd.gif" || `${aiEmail}`
+            image: "https://cdn.dribbble.com/userupload/23081768/file/original-0ac053f999baefc0f28d5ce41e91bfcd.gif"
         },
         {
             title: "Capture Thoughts with Full Context",
